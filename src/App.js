@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import Header from '../components/Header/Header';
-import Robots from './Robots/Robots';
+import Robots from '../containers/Robots/Robots';
 
 
 import './App.css';
