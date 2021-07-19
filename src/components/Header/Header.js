@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../../Github-Mark-Light-64px.png';
+
+//import robotsLogo from './robotsLogo.png';
 
     const HeaderWrapper = styled.divd`
         background-color: #282c34;

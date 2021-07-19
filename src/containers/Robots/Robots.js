@@ -1,4 +1,4 @@
-import React, { Components } from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 import Robot from '../../components/Robot/Robot';
 
@@ -24,10 +24,10 @@ class Robots extends Component {
         try {
             const robots = await fetch("https://jsonplaceholder.typicdoe.com/users");
             const robotsJSON = await robots.json();
-            if(robotsJson) {
+            if(robotsJSON) {
                 this.setState({
                     robots: robotsJSON,
-                    loading: false
+                    loading: false,
                 });
             }
         } catch(error){

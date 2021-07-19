@@ -39,7 +39,7 @@ const Robot = ({robot}) => (
                 {robot.name}
             </Name>
             <UserName>
-                {user.name}
+                {robot.userName}
             </UserName>
         </Card>
     </>
